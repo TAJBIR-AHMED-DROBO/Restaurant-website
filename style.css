@@ -1,0 +1,159 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;1,6..12,300;1,6..12,500&family=Nunito:wght@400;500;600&family=Roboto+Serif:opsz,wght@8..144,400;8..144,500&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'Nunito', sans-serif;;
+}
+
+
+.hm{
+    position:fixed;
+    top:1px;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar-brand{
+    width: 3rem;
+}
+.navbar-brand:hover{
+    opacity:0.7;
+}
+ul li a{
+    margin: 10px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 0.9375rem;
+    color: rgb(248, 36, 36);
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color:rgb(108, 108, 238);
+}
+.top-button{
+    height: 3rem;
+    margin-top: 0.2rem;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.top-banner{
+    height:500px;
+    width: 100%;
+    background:url("https://thumbs.dreamstime.com/b/fruit-2999796.jpg") no-repeat right;
+    background-size:52%;
+}
+.d{
+    height: 95px;
+}
+h1{
+    color: rgb(199, 127, 76) !important;
+    font-size:2.5rem;
+    font-weight:bold;
+
+}
+p{
+    font-family: 'Nunito', sans-serif;
+  
+   
+    letter-spacing: 1px;
+    word-spacing: 0.1rem;
+  
+}
+.button{
+    color:white;
+    background-color: rgb(201, 86, 86);
+    padding: 0.5rem;
+    margin-left: 3px;
+    outline: unset;
+    border: none;
+    border:0.5px solid 
+}
+
+.middle{
+    background-color: rgb(218, 96, 96);
+    padding-top: 2.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.r{
+    color: white !important;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+}
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333; /* Adjust color as needed */
+    margin-bottom: 1rem;
+  }
+  
+  /* For the Learn More button */
+  button.learn-more {
+    padding: 0.5rem 1.5rem;
+    background-color: brown;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    border-radius: 3px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button.learn-more:hover {
+    background-color: #8b4513;
+    color: #fff;
+  }
+section img{
+    margin:-0.1rem -1rem -0.1rem;
+}  
+body{
+    background-color: rgba(171, 220, 235, 0.516) !important;
+}
+.tip{
+    background: url("https://w0.peakpx.com/wallpaper/872/53/HD-wallpaper-cup-coffee-coffee-beans-splash-steam-thumbnail.jpg") no-repeat center ;
+    background-size: cover;
+    height:500px;
+}
+.bro{
+    margin-top: 10%;
+}
+.card{
+    border: none;
+}
+.carousel-inner .carousel-item{
+    margin-top: 3rem;
+    padding: 10rem 3.25rem;
+    background-color: #47e48800 !important;
+    border-radius: 1rem;
+    text-align: center;
+}
+.carousel-item img{
+    border-radius:50%;
+    max-width: 3rem;
+}
+h2{
+    color:rgb(106, 228, 122)!important;
+}
+.topper{
+    background: url("https://i.insider.com/5797674c4321f1d01a8bad2e?width=850&format=jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.top li{
+   margin:1.5rem;
+   color: white;
+}
+.do li{
+    margin-left: 1.5rem;
+    font-size: 2rem;
+}
